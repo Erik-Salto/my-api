@@ -1,0 +1,19 @@
+{
+  "name": "my-api",
+  "version": "1.0.0",
+  "description": "api wrapper ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erik-Salto/my-api.git"
+  },
+  "author": "Erik-Salto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erik-Salto/my-api/issues"
+  },
+  "homepage": "https://github.com/Erik-Salto/my-api#readme"
+}
