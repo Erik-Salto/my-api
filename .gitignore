@@ -1,0 +1,56 @@
+#env configs
+*.env
+ftgateway-*.json    
+env-config/
+pacts/
+
+# Logs
+**/logs
+*.log
+**/npm-debug.log*
+
+# build files
+**/pre_sign_url
+
+# os and ide files
+*.vscode
+*.DS_Store
+*.DS_Store?
+._*
+*.Spotlight-V100
+*.Trashes
+*.lnk
+**/Thumbs.db
+**/ehthumbs.db
+**/Desktop.ini
+**/Untitled-*
+
+# node and npm
+**/node_modules
+**/jspm_packages
+*.node_repl_history
+*.npm
+
+# test related files
+**/.nyc_output
+**/coverage
+
+# cert files
+**/ssl
+*.csr
+*.cer
+*.der
+*.crt
+*.p7b
+*.p7r
+*.spc
+*.pfx
+*.p12
+*.pem
+*.key
+
+# local
+local/
+
+**/mochawesome-report
+**/pacts
