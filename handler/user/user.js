@@ -21,6 +21,7 @@ module.exports = async (request, h) => {
             response = await instance.get(`https://gorest.co.in/public/v2/users/${id}`);
             users = get(response, ['data']);
         } else if(method == 'delete'){
+            //cant delete without id
             if(id == "") return "Missing id";
             response = await instance.delete(`https://gorest.co.in/public/v2/users/${id}?access-token=7f5a340c903c0f767d1745838ff049f5df37c95d97933f2ea0d812bf55072e1f`);
             users = get(response, ['data']);
