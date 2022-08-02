@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,10 @@
   "homepage": "https://github.com/Erik-Salto/my-api#readme",
   "dependencies": {
     "@asurion/ftp-ft-hapi": "^2.0.1",
-    "@asurion/ftp-ft-logger": "^2.2.4"
+    "@asurion/ftp-ft-logger": "^2.2.4",
+    "axios": "^0.27.2",
+    "https": "^1.0.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.19"
   }
 }

@@ -6,7 +6,7 @@ module.exports = {
       port: 5001
     },
     swagger: {
-      enabled: process.env.SWAGGER_ENABLED === 'true',
+      enabled: true,
       options: {
         documentationPath: '/docs',
         auth: false,
