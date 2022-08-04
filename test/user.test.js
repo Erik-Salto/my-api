@@ -5,7 +5,7 @@ const { initServer } = require('../utils/server');
 const { validNewUser } = require('./data/user');
 
 describe('Testing user handler', function () {
-    //let server, request, response, id;
+    let server, id;
 
     before(async () =>  {
         Nconf.use('memory');
