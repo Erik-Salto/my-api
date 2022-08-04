@@ -14,6 +14,7 @@ const initServer = async () => {
   await FtHapi.addRoutes(internals.server, routes);
   await internals.server.start();
   //Logger.console(`Server started on: ${internals.server.info.uri}`);
+  return internals.server;
 };
 
 module.exports = { initServer };
